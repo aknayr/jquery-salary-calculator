@@ -1,0 +1,50 @@
+h1, h2 {
+  background-color: red;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#employeeForm {
+  padding: 20px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%
+}
+
+table {
+  padding: 20px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+}
+
+td {
+  border: 1px black;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  width: 150px;
+}
+
+#submitBtn {
+  background-color: black;
+  border: 1px solid whitesmoke;
+  width: 150px;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+tr:nth-child(even){
+  background-color: inherit;
+}
